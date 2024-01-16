@@ -1,16 +1,15 @@
 # Ping-Pong using Turtle
-# Pong Game with Turtle Graphics
 
 Welcome to Ping Pong, a classic two-player game implemented using the Turtle graphics library in Python. Compete against your friend and see who can score the most points!
 
 ## Instructions:
 
 1. **Player Names:**
-   - Enter the names of Player 1 and Player 2 when prompted.
+   - Enter the names of Player 1 and Player 2 when prompted at the start of the game.
 
 2. **Controls:**
-   - Player 1 (Left Paddle): Use "W" to move up and "S" to move down.
-   - Player 2 (Right Paddle): Use the "Up" arrow to move up and the "Down" arrow to move down.
+   - Player 1 (Right Paddle): Use the "Up" arrow to move up and the "Down" arrow to move down.
+   - Player 2 (Left Paddle): Use "W" to move up and "S" to move down.
 
 3. **Scoring:**
    - Score points by successfully hitting the ball past your opponent's paddle.
@@ -30,16 +29,6 @@ Welcome to Ping Pong, a classic two-player game implemented using the Turtle gra
 ## Dependencies:
 
 - This game requires the `winsound` library for sound effects which is available on windows OS.
-
-## Controls:
-
-- **Player 1:**
-  - Move Up: "W"
-  - Move Down: "S"
-
-- **Player 2:**
-  - Move Up: "Up" arrow
-  - Move Down: "Down" arrow
 
 ## Game Logic:
 
