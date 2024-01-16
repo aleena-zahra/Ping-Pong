@@ -90,6 +90,8 @@ def move_ball():
 
 def play_paddle_collision_sound():
     winsound.PlaySound("paddle_sound.wav",winsound.SND_ASYNC)
+def play_score_sound():
+     winsound.PlaySound("score.wav",winsound.SND_ASYNC)   
     
 def detect_collision_with_paddle():
     global MOVEMENT_IN_X_DIRECTION
@@ -114,6 +116,7 @@ def detect_collision_with_wall():
     global player2_score
     if ball.xcor()> (SCREEN_WIDTH/2 +40):
         player2_score += 1  
+        play_score_sound()
         time.sleep(0.25)
         ball.hideturtle()
         MOVEMENT_IN_X_DIRECTION *=-1
@@ -121,6 +124,7 @@ def detect_collision_with_wall():
         write_score()
     if ball.xcor() < -(SCREEN_WIDTH/2 +40) :
         player1_score += 1
+        play_score_sound()
         time.sleep(0.25)
         ball.hideturtle()
         MOVEMENT_IN_X_DIRECTION *=-1
