@@ -1,6 +1,10 @@
 # Ping-Pong using Turtle
 
 Welcome to Ping Pong, a classic two-player game implemented using the Turtle graphics library in Python. Compete against your friend and see who can score the most points!
+## Screenshots
+![Capture](https://github.com/aleena-zahra/Ping-Pong/assets/155615101/0b300503-331d-4f96-bc77-da246bef6269)
+
+![Capture3](https://github.com/aleena-zahra/Ping-Pong/assets/155615101/223394cd-9443-43ff-9015-f00bf785b026)
 
 ## Instructions:
 
